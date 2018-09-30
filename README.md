@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-# WEBAPP: dashcoard by Nikos
+# WEBAPP: Dashboard by Nikos
 #-----------------------------------------------------------------------------
 # Infra y recursos
     Lenguaje y framework: Python (vs 3) + Pyramid (vs 1.9.2)
