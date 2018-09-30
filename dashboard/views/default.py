@@ -1,3 +1,6 @@
+import logging
+log = logging.getLogger(__name__)
+
 from pyramid.httpexceptions import HTTPFound
 from pyramid.security import (
     remember,
@@ -24,15 +27,18 @@ class TutorialViews:
 
     @view_config(route_name='home')
     def home(self):
+        log.debug('In home view')
         return {'name': 'Home View'}
 
     @view_config(route_name='dashboard', permission='edit', renderer='dashboard:templates/dashboard.pt')
     def dashboard(self):
+        log.debug('In Dashboard view')
         return {'name': 'Dashboard View'}
 
     @view_config(route_name='login', renderer='dashboard:templates/login.pt')
     @forbidden_view_config(renderer='dashboard:templates/login.pt')
     def login(self):
+        log.debug('In login view')
         request = self.request
         login_url = request.route_url('login')
         referrer = request.url
@@ -63,6 +69,7 @@ class TutorialViews:
 
     @view_config(route_name='logout')
     def logout(self):
+        log.debug('In logout view')
         request = self.request
         headers = forget(request)
         url = request.route_url('home')
