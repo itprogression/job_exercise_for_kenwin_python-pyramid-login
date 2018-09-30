@@ -15,7 +15,9 @@
     Entregar un trabajo no terminado
 
 # Descripción detallada: 
-    El escenario ideal implica levantar una aplicación web local en Pyramid con una base de datos: PostgreSQL subirla a un repositorio público de GitHub conteniendo simplemente dos URLs (el login y el home vacío) donde indique en el README como instalar su aplicación y lograr loguearse efectivamente con un usuario mostrando un Home con un template vacío (no es necesario que tenga diseño ni nada por el estilo). 
+    El escenario ideal implica levantar una aplicación web local en Pyramid con una base de datos: PostgreSQL.
+    Subirla a un repositorio público de GitHub conteniendo simplemente dos URLs (el login y el home vacío).
+    Indique en el README como instalar su aplicación y lograr loguearse efectivamente con un usuario mostrando un Home con un template vacío (no es necesario que tenga diseño ni nada por el estilo). 
 
 # Puntos extras:
     Utilizar y mostrar uso de virtual environments
