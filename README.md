@@ -101,7 +101,6 @@ http://localhost:6543/dashboard
         * pide login
     * nota:
         * deberia poder verse el dashboard: Sufee HTML5 Admin Dashboard Template
-            * https://github.com/puikinsh/sufee-admin-dashboard
   
 
 
